@@ -1,0 +1,109 @@
+* {margin: 0;padding: 0;}
+a {text-decoration: none;}
+div {margin: 0;padding: 0;}
+body {width: 100%;height: auto;min-height: 5000px;margin: 0 auto;background-color: #333;box-sizing: border-box;text-align: center;}
+main {width: 100%;height: auto;display: block;box-sizing: border-box;color: #fff;}
+.sky {width: 100%;height: 250px;display: block;box-sizing: border-box;background-color: skyblue;}
+.cloud1 {width: 150px;height: 60px;display: inline-block;background-color: #fff;position: absolute;top: 70px;left: 200px;color: #000;border-radius: 60px 100px 70px 80px}
+.cloud2 {width: 250px;height: 100px;display: inline-block;background-color: #fff;position: absolute;top: 55px;left: 700px;color: #000;border-radius: 60px 100px 70px 80px}
+.cloud3 {width: 180px;height: 50px;display: inline-block;background-color: #fff;position: absolute;top: 80px;left: 1400px;color: #000;border-radius: 60px 100px 70px 80px}
+.anim {width: 200px;height: 50px;background-color: green;position: relative;border-radius: 40px 40px 20px 20px;display: block;box-sizing: border-box;overflow: hidden;top: 200px;margin-left: 130px;}
+.div1 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div2 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div3 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div4 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div5 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div6 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div7 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div8 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div9 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div10 {height: 100%;width: 5px;display: inline-block;margin-right: 10px;background-color: black;}
+.div11 {width: 7px;height: 7px;display: inline-block;background-color: black;position: absolute;right: 5px;top: 30px;border-radius: 50%;}
+.div12 {width: 10px;height: 7px;display: inline-block;background-color: black;position: absolute;right: 5px;top: 44px;border-radius: 50% 0 0 0}
+.get {width: 100px;height: 30px;position: absolute;background-color: #222;margin-left: -90px;top: 435px;}
+.bob {width: 200px;height: 70px;position: absolute;text-align: center;margin-left: 190px;font-size: 30px;font-family: sans-serif;color:green;}
+.ball {width: 200px;height: 70px;position: absolute;text-align: center;margin-left: -35px;font-size: 30px;font-family: sans-serif;color: red;}
+.button {width: 200px;height: 50px;position: absolute;text-align: center;margin-left: 320px;font-size: 30px;font-family: sans-serif;top: 460px;}
+.grass {width: 100%;height: 50px;display: block;background-color: #8FE965;box-shadow: 2px 2px 2px 2px black;}
+.earth {width: 100%;height: 150px;display: block;background-color: #412B16;}
+.d16 {width: 100px;height: 100px;position: absolute; border-radius: 50%;background-color: skyblue;margin: 149px 0 0 9px;border-top: 1px solid #000;border-left: 1px solid transparent;border-bottom: 1px solid transparent;border-right: 1px solid transparent;-webkit-animation: bor .4s ease-in-out infinite; -moz-animation: bor .4s ease-in-out infinite; -ms-animation: bor .4s ease-in-out infinite;}
+@-webkit-keyframes bor { 0% { -webkit-transform: rotate(0deg); } 25% { -webkit-transform: rotate(22.5deg); } 50% { -webkit-transform: rotate(45deg); }75% { -webkit-transform: rotate(-22.5deg); }100% { -webkit-transform: rotate(0deg); }  }
+.d17 {width: 100px;height: 100px;position: absolute; border-radius: 50%;background-color: skyblue;margin: 149px 0 0 9px;border-top: 1px solid transparent;border-left: 1px solid transparent;border-bottom: 1px solid #000;border-right: 1px solid transparent;-webkit-animation: bors .4s ease-in-out infinite;-moz-animation: bors .4s ease-in-out infinite; -ms-animation: bors .4s ease-in-out infinite;}
+@-webkit-keyframes bors { 0% { -webkit-transform: rotate(0deg); } 25% { -webkit-transform: rotate(-22.5deg); } 50% { -webkit-transform: rotate(-45deg); }75% { -webkit-transform: rotate(22.5deg); }100% { -webkit-transform: rotate(0deg); }  }
+.d18 {width: 100px;height: 100px;position: absolute; border-radius: 50%;background-color: #483002;margin: 149px 0 0 9px;border-top: 1px solid black;border-left: 1px solid black;border-bottom: 1px solid black;border-right: 1px solid black;}
+.d19 {width: 15px;height: 15px;position: absolute;border-radius: 50%;background-color: black;margin: 168px 0 0 65px;z-index: 4;}
+.d20 {width: 100px;height: 100px;position: absolute; border-radius: 50%;background-color: #F4B915;margin: 149px 0 0 9px;border-top: 1px solid black;border-left: 1px solid black;border-bottom: 1px solid black;border-right: 1px solid black;}
+.d21 {width: 0; height: 0;border-right: 50px solid transparent;border-top: 50px solid #F4B915;border-left: 50px solid #F4B915;border-bottom: 50px solid #F4B915;border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-left-radius: 60px;border-bottom-right-radius: 60px;position: absolute;margin: 150px 0 0 10px;z-index: 1;-webkit-animation: eat2 .4s ease-in-out infinite; -moz-animation: eat2 .4s ease-in-out infinite; -ms-animation: eat2 .4s ease-in-out infinite;}
+@-webkit-keyframes eat2 { 0%   { -webkit-transform: rotate(0deg); } 10%  { -webkit-transform: rotate(-10deg); }  20%  { -webkit-transform: rotate(-20deg); } 30%  {-webkit-transform: rotate(-30deg); }  40%  { -webkit-transform: rotate(-40deg); }  50%  { -webkit-transform: rotate(-50deg); }60%  { -webkit-transform: rotate(-40.5deg); }70%  { -webkit-transform: rotate(-30deg); } 80%  { -webkit-transform: rotate(-20deg); } 90%  { -webkit-transform: rotate(-10deg); } 100% { -webkit-transform: rotate(0deg); }}
+.d22 {width: 0; height: 0;border-right: 50px solid transparent;border-top: 50px solid #F4B915;border-left: 50px solid #F4B915;border-bottom: 50px solid #F4B915;border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-left-radius: 60px;border-bottom-right-radius: 60px;position: absolute;z-index: 1;margin: 150px 0 0 10px;-webkit-animation: eats .4s ease-in-out infinite; -moz-animation: eats .4s ease-in-out infinite; -ms-animation: eats .4s ease-in-out infinite;}
+@-webkit-keyframes eats { 0%   { -webkit-transform: rotate(0deg); } 10%  { -webkit-transform: rotate(10deg); }  20%  { -webkit-transform: rotate(20deg); } 30%  { -webkit-transform: rotate(30deg); }  40%  { -webkit-transform: rotate(40deg); }  50%  { -webkit-transform: rotate(50deg); }60%  { -webkit-transform: rotate(40.5deg); }70%  { -webkit-transform: rotate(30deg); } 80%  { -webkit-transform: rotate(20deg); } 90%  { -webkit-transform: rotate(10deg); } 100% { -webkit-transform: rotate(0deg); }      }
+.d39 {position: relative;width: 3em; height: 3em; margin: 2em;background: #D5DEE9;border-width: 0.25em;border-style: solid;border-color: #6E839E;border-radius: 50% 50% 0 0;display: inline-block;margin-right: 300px;}
+.d39:before, .d39:after {content: "";position: absolute; bottom: -0.25em;background: inherit;border-width: 0.25em;border-style: solid;border-color: #6E839E;}
+.d39:before {left: 80%; width: 60%; height: 60%;border-left: none;border-radius: 50% 50% 50% 0;}
+.d39:after {right: 80%;width: 80%; height: 80%;border-right: none;border-radius: 50% 50% 0;}
+.d37 {width: 8px;height: 20px;background-color: green;border-radius: 100% 0;transform-origin: bottom center;}
+.grass1  {animation: grass 2s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -950px;border-radius: 100% 0;}
+.grass2  {animation: grass 2.1s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -900px;border-radius: 100% 0;}
+.grass3  {animation: grass 2.2s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -850px;border-radius: 100% 0;}
+.grass4  {animation: grass 2.3s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -800px;border-radius: 100% 0;}
+.grass5  {animation: grass 2.4s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -750px;border-radius: 100% 0;}
+.grass6  {animation: grass 2.5s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -700px;border-radius: 100% 0;}
+.grass7  {animation: grass 2.6s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -650px;border-radius: 100% 0;}
+.grass8  {animation: grass 2.7s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -600px;border-radius: 100% 0;}
+.grass9  {animation: grass 2.8s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -550px;border-radius: 100% 0;}
+.grass10 {animation: grass 2.9s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -500px;border-radius: 100% 0;}
+.grass11 {animation: grass 3s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -450px;border-radius: 100% 0;}
+.grass12 {animation: grass 2.9s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -400px;border-radius: 100% 0;}
+.grass13 {animation: grass 2.8s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -350px;border-radius: 100% 0;}
+.grass14 {animation: grass 2.7s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -300px;border-radius: 100% 0;}
+.grass15 {animation: grass 2.6s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -250px;border-radius: 100% 0;}
+.grass16 {animation: grass 2.5s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -200px;border-radius: 100% 0;}
+.grass17 {animation: grass 2.4s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -150px;border-radius: 100% 0;}
+.grass18 {animation: grass 2.3s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -100px;border-radius: 100% 0;}
+.grass19 {animation: grass 2.2s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left: -50px ;border-radius: 100% 0;}
+.grass20 {animation: grass 2.1s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  0px  ;border-radius: 100% 0;}
+.grass21 {animation: grass 2s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  50px ;border-radius: 100% 0;}
+.grass22 {animation: grass 2.1s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  100px;border-radius: 100% 0;}
+.grass23 {animation: grass 2.2s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  150px;border-radius: 100% 0;}
+.grass24 {animation: grass 2.3s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  200px;border-radius: 100% 0;}
+.grass25 {animation: grass 2.4s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  250px;border-radius: 100% 0;}
+.grass26 {animation: grass 2.5s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  300px;border-radius: 100% 0;}
+.grass27 {animation: grass 2.6s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  350px;border-radius: 100% 0;}
+.grass28 {animation: grass 2.7s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  400px;border-radius: 100% 0;}
+.grass29 {animation: grass 2.8s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  450px;border-radius: 100% 0;}
+.grass30 {animation: grass 2.9s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  500px;border-radius: 100% 0;}
+.grass31 {animation: grass 3s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  550px;border-radius: 100% 0;}
+.grass32 {animation: grass 2.9s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  600px;border-radius: 100% 0;}
+.grass33 {animation: grass 2.8s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  650px;border-radius: 100% 0;}
+.grass34 {animation: grass 2.7s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  700px;border-radius: 100% 0;}
+.grass35 {animation: grass 2.6s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  750px;border-radius: 100% 0;}
+.grass36 {animation: grass 2.5s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  800px;border-radius: 100% 0;}
+.grass37 {animation: grass 2.4s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  850px;border-radius: 100% 0;}
+.grass38 {animation: grass 2.3s linear infinite;background-color: green;position: absolute;display: inline-block;margin-left:  900px;border-radius: 100% 0;}
+@-webkit-keyframes grass {0% {-webkit-transform: rotate(-30deg);}10% {-webkit-transform: rotate(-20deg);}20% {-webkit-transform: rotate(-10deg);}30% {-webkit-transform: rotate(0deg);}40% {-webkit-transform: rotate(10deg);}50% {-webkit-transform: rotate(20deg);}60% {-webkit-transform: rotate(10deg);}70% {-webkit-transform: rotate(0deg);}80% {-webkit-transform: rotate(-10deg);}90% {-webkit-transform: rotate(-20deg);}100% {-webkit-transform: rotate(-30deg);}
+}
+.d33 {width: 230px; height: 40px;margin-top: 150px;margin-left: 130px;background: #B5DDD4;color: #fff;position: absolute;border-radius: 10px;font-size: 30px;box-shadow: border-box;animation: 3s linear infinite;opacity: 0;}
+.d33:before {content: "";width: 0; height: 0;position: absolute; right: 100%; top: calc(50% - 12px);border-top: 12px solid transparent;border-right: 24px solid #B5DDD4;border-bottom: 12px solid transparent;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
