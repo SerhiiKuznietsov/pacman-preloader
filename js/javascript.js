@@ -1,5 +1,5 @@
-$('.anim').click(() => {
-	$('.anim')
+$('.snake').click(() => {
+	$('.snake')
 		.animate({width: '300'}, '900')
 		.animate({width: '200',left:  '100'}, '800')
 		.animate({width: '300'}, '900')
